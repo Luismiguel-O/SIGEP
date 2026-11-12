@@ -6,7 +6,7 @@ import "fmt" // Permite mostrar informacion en la terminal.
 // cliente: nombre de la persona que solicita las plantas.
 // planta: especie y variedad solicitada.
 // cantidad: numero de plantas que necesita el cliente.
-// precio: valor unitario acordado.
+// precio: valor unitario acordado y calcula su valor total.
 // fechaEntrega: fecha prevista para retirar las plantas.
 // Por ahora solo muestra los datos, no los almacena.
 func RegistrarPedido(cliente string, planta string, cantidad int, precio float64, fechaEntrega string) {

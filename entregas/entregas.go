@@ -4,8 +4,8 @@ import "fmt" // Permite mostrar informacion en la terminal.
 
 // RegistrarEntrega recibe los datos de una entrega.
 // numeroPedido identifica el pedido del cliente.
-// cantidad indica las plantas solicitadas.
-// cortesia indica las plantas adicionales gratuitas.
+// calcula cantidad plantas solicitadas.
+// calcula cortesia de las plantas adicionales gratuitas.
 // fecha indica cuando se realiza la entrega.
 // Por ahora solo muestra los datos, no los guarda.
 func RegistrarEntrega(numeroPedido int, cantidad int, cortesia int, fecha string) {

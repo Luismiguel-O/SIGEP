@@ -2,9 +2,9 @@ package pagos // Indica que este archivo pertenece al paquete pagos.
 
 import "fmt" // Importa fmt para mostrar informacion en pantalla.
 
-// RegistrarAbono recibe el numero de pedido y el valor abonado.
-// numeroPedido identifica el pedido del cliente.
-// monto representa la cantidad de dinero que entrega.
+// Registra Abono recibe el numero de pedido y el valor abonado.
+// numeroPedido identifica el pedido del cliente y calcula el valor total de pedidio
+// monto representa la cantidad de dinero que entrega
 // Esta funcion solo muestra datos, todavia no guarda pagos.
 func RegistrarAbono(numeroPedido int, monto float64) {
 
